@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ferrari - Flowbite Website</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#0f172a] text-gray-200 scroll-smooth">
+
+  <!-- Navbar -->
+  <nav class="bg-red-600 p-4 fixed top-0 w-full z-50 shadow">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between">
+      <a href="#" class="text-white font-bold text-xl">Ferrari</a>
+      <div class="space-x-4 text-white text-sm hidden md:flex">
+        <a href="#hero" class="hover:underline">Beranda</a>
+        <a href="#cars" class="hover:underline">Mobil</a>
+        <a href="#achievements" class="hover:underline">Pencapaian</a>
+        <a href="#info" class="hover:underline">Lokasi</a>
+        <a href="#contact" class="hover:underline">Kontak</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero" class="pt-24 pb-12 text-center">
+    <h2 class="text-3xl font-bold mb-4 text-white">Ferrari</h2>
+    <div class="max-w-6xl mx-auto px-4">
+      <img src="wallhaven-m9v1dy.jpg" alt="Ferrari Hero" class="w-full h-56 sm:h-72 md:h-96 object-cover rounded shadow-lg" />
+      <p class="mt-4 text-gray-300 text-sm sm:text-base">Ferrari adalah simbol kecepatan, kemewahan, dan inovasi otomotif Italia sejak 1947.</p>
+    </div>
+  </section>
+
+  <!-- Cards -->
+  <section id="cars" class="py-12">
+    <h2 class="text-center text-2xl font-bold mb-6 text-white">Mobil Ferrari yang Populer</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto px-4">
+      <div class="bg-white rounded-lg shadow p-4 text-center text-gray-800">
+        <img src="wallhaven-mdqpk8.png" alt="488 GTB" class="rounded mb-3 w-full h-40 object-cover" />
+        <h5 class="font-semibold">Ferrari 488 GTB</h5>
+        <p class="text-sm">Mesin V8 twin-turbo yang sangat bertenaga.</p>
+      </div>
+      <div class="bg-white rounded-lg shadow p-4 text-center text-gray-800">
+        <img src="wallhaven-q667w5.jpg" alt="LaFerrari" class="rounded mb-3 w-full h-40 object-cover" />
+        <h5 class="font-semibold">LaFerrari</h5>
+        <p class="text-sm">Hypercar hybrid pertama dari Ferrari.</p>
+      </div>
+      <div class="bg-white rounded-lg shadow p-4 text-center text-gray-800">
+        <img src="wallhaven-8odx31.jpg" alt="F8 Tributo" class="rounded mb-3 w-full h-40 object-cover" />
+        <h5 class="font-semibold">F8 Tributo</h5>
+        <p class="text-sm">Desain aerodinamis dan tenaga luar biasa.</p>
+      </div>
+      <div class="bg-white rounded-lg shadow p-4 text-center text-gray-800">
+        <img src="wallhaven-g83zz3.jpg" alt="Portofino" class="rounded mb-3 w-full h-40 object-cover" />
+        <h5 class="font-semibold">Portofino</h5>
+        <p class="text-sm">Convertible elegan untuk kenyamanan dan gaya.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements" class="py-12 bg-gray-900">
+    <h2 class="text-2xl font-bold mb-6 text-center text-white">Pencapaian Ferrari</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center max-w-4xl mx-auto px-4">
+      <div>
+        <h3 class="text-3xl font-bold text-red-500">+230</h3>
+        <p>Kemenangan F1</p>
+      </div>
+      <div>
+        <h3 class="text-3xl font-bold text-red-500">+70</h3>
+        <p>Tahun Berkarya</p>
+      </div>
+      <div>
+        <h3 class="text-3xl font-bold text-red-500">+50</h3>
+        <p>Model Mobil Ikonik</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map + Info -->
+  <section id="info" class="py-12">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 px-4">
+      <div class="border border-gray-700 p-4 rounded">
+        <h3 class="text-lg font-semibold mb-2 text-white">Lokasi Museum Ferrari</h3>
+        <iframe class="w-full rounded h-64 sm:h-80" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.611723187056!2d10.867559615346172!3d44.53233857910047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132c9e4d604ac21b%3A0xe045108116a2fa38!2sFerrari%20Museum!5e0!3m2!1sen!2sid!4v1632905484253!5m2!1sen!2sid" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="border border-gray-700 p-4 rounded">
+        <h3 class="text-lg font-semibold mb-2 text-white">Fakta Singkat</h3>
+        <ul class="list-disc pl-5 text-sm text-gray-300">
+          <li>Dibuat oleh Enzo Ferrari tahun 1947.</li>
+          <li>Berbasis di Maranello, Italia.</li>
+          <li>Lebih dari 230 kemenangan F1.</li>
+          <li>Logo "kuda jingkrak" berasal dari pesawat tempur Italia.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="contact" class="py-12">
+    <h1 class="text-3xl font-bold mb-6 text-center text-red-500">Hubungi Kami</h1>
+    <p class="mb-6 text-center text-gray-300">Jika Anda memiliki pertanyaan atau saran, silakan isi formulir berikut atau hubungi kami langsung.</p>
+
+    <form class="bg-gray-800 p-6 rounded shadow max-w-lg mx-auto">
+      <div class="mb-4">
+        <label for="name" class="block mb-1 font-semibold text-white">Nama</label>
+        <input type="text" id="name" name="name" required class="w-full p-2 border border-gray-600 rounded bg-gray-900 text-white" placeholder="Masukkan nama Anda" />
+      </div>
+      <div class="mb-4">
+        <label for="email" class="block mb-1 font-semibold text-white">Email</label>
+        <input type="email" id="email" name="email" required class="w-full p-2 border border-gray-600 rounded bg-gray-900 text-white" placeholder="Masukkan email Anda" />
+      </div>
+      <div class="mb-4">
+        <label for="message" class="block mb-1 font-semibold text-white">Pesan</label>
+        <textarea id="message" name="message" rows="5" required class="w-full p-2 border border-gray-600 rounded bg-gray-900 text-white" placeholder="Tulis pesan Anda di sini..."></textarea>
+      </div>
+      <button type="submit" class="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition">Kirim</button>
+    </form>
+
+    <section class="mt-12 text-center text-gray-300">
+      <h2 class="text-2xl font-semibold mb-4 text-white">Informasi Kontak</h2>
+      <p>Email: <a href="mailto:info@ferrari.com" class="text-red-500 hover:underline">info@ferrari.com</a></p>
+      <p>Telepon: <a href="tel:+390123456789" class="text-red-500 hover:underline">+39 012 345 6789</a></p>
+      <p>Alamat: Via Abetone Inferiore, 4, 41053 Maranello MO, Italia</p>
+    </section>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="bg-red-600 text-white text-center py-4">
+    &copy; 2025 Ferrari | Dibuat dengan Tailwind & Flowbite
+  </footer>
+
+</body>
+</html>
